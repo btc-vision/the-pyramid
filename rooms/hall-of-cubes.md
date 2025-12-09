@@ -2,7 +2,94 @@
 
 You enter a vast chamber. Hundreds of cubes float in perfect formation, rotating slowly. The air hums with geometric energy.
 
-**[View the Floating Cube](../models/floating-cube.stl)**
+```stl
+solid floating_cube
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.0 2.0 0.0
+      vertex 2.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 2.0 0.0
+      vertex 2.0 2.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 2.0
+      vertex 2.0 0.0 2.0
+      vertex 2.0 2.0 2.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 2.0
+      vertex 2.0 2.0 2.0
+      vertex 0.0 2.0 2.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 2.0
+      vertex 0.0 2.0 2.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 2.0 2.0
+      vertex 0.0 2.0 0.0
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 2.0 0.0 0.0
+      vertex 2.0 2.0 2.0
+      vertex 2.0 0.0 2.0
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 2.0 0.0 0.0
+      vertex 2.0 2.0 0.0
+      vertex 2.0 2.0 2.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.0 0.0 0.0
+      vertex 2.0 0.0 2.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.0 0.0 2.0
+      vertex 0.0 0.0 2.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 2.0 0.0
+      vertex 2.0 2.0 2.0
+      vertex 2.0 2.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 2.0 0.0
+      vertex 0.0 2.0 2.0
+      vertex 2.0 2.0 2.0
+    endloop
+  endfacet
+endsolid
+```
 
 A cube descends to your level. It speaks in right angles:
 

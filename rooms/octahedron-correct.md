@@ -8,7 +8,66 @@ The octahedron stops rotating. All eight faces align to look at you simultaneous
 
 The octahedron splits open, revealing a doorway of pure light.
 
-**[View the Gateway](../models/gateway.stl)**
+```stl
+solid gateway
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 3.0 5.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 5.0 0.0
+      vertex 0.0 5.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.3 0.3 0.2
+      vertex 2.7 5.0 0.2
+      vertex 2.7 0.3 0.2
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.3 0.3 0.2
+      vertex 0.3 5.0 0.2
+      vertex 2.7 5.0 0.2
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 5.0 0.0
+      vertex 0.3 5.0 0.2
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.3 5.0 0.2
+      vertex 0.3 0.3 0.2
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 2.7 0.3 0.2
+      vertex 2.7 5.0 0.2
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 2.7 5.0 0.2
+      vertex 3.0 5.0 0.0
+    endloop
+  endfacet
+endsolid
+```
 
 *"Go now. Return to your world of curved surfaces and irrational numbers. But remember what you learned here: geometry is the language of reality itself."*
 
@@ -30,6 +89,4 @@ You understand now that geometry isn't just shapes. It's the skeleton of existen
 
 ---
 
-*ENDING 5/5 UNLOCKED: "Geometric Enlightenment"*
-
-*Congratulations! You found a good ending.*
+*ENDING 5/9 UNLOCKED: "Geometric Enlightenment"*

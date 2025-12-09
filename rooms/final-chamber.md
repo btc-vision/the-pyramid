@@ -4,7 +4,94 @@ You rise from the void, carrying its blessing. The chamber you enter exists outs
 
 At the center floats the Hypercube. The four-dimensional guardian of all geometry.
 
-**[View the Tesseract's Shadow](../models/tesseract.stl)**
+```stl
+solid tesseract_shadow
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 3.0 0.0
+      vertex 0.0 3.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.75 0.75 2.25
+      vertex 2.25 0.75 2.25
+      vertex 2.25 2.25 2.25
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.75 0.75 2.25
+      vertex 2.25 2.25 2.25
+      vertex 0.75 2.25 2.25
+    endloop
+  endfacet
+  facet normal -0.316 -0.316 0.894
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.75 0.75 2.25
+      vertex 0.75 2.25 2.25
+    endloop
+  endfacet
+  facet normal -0.316 -0.316 0.894
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.75 2.25 2.25
+      vertex 0.0 3.0 0.0
+    endloop
+  endfacet
+  facet normal 0.316 -0.316 0.894
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 2.25 2.25 2.25
+      vertex 2.25 0.75 2.25
+    endloop
+  endfacet
+  facet normal 0.316 -0.316 0.894
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 0.0
+      vertex 2.25 2.25 2.25
+    endloop
+  endfacet
+  facet normal 0.0 -0.447 0.894
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 2.25 0.75 2.25
+    endloop
+  endfacet
+  facet normal 0.0 -0.447 0.894
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.25 0.75 2.25
+      vertex 0.75 0.75 2.25
+    endloop
+  endfacet
+  facet normal 0.0 0.447 0.894
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 0.75 2.25 2.25
+      vertex 2.25 2.25 2.25
+    endloop
+  endfacet
+  facet normal 0.0 0.447 0.894
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 2.25 2.25 2.25
+      vertex 3.0 3.0 0.0
+    endloop
+  endfacet
+endsolid
+```
 
 The Hypercube speaks in dimensions you can barely perceive:
 

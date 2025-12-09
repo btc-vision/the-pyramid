@@ -4,6 +4,39 @@ You step through the door. Sunlight. Grass. Sky.
 
 You're out.
 
+```stl
+solid simple_door
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.0 0.0 0.0
+      vertex 2.0 4.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.0 4.0 0.0
+      vertex 0.0 4.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 0.2
+      vertex 2.0 4.0 0.2
+      vertex 2.0 0.0 0.2
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 0.2
+      vertex 0.0 4.0 0.2
+      vertex 2.0 4.0 0.2
+    endloop
+  endfacet
+endsolid
+```
+
 That's it. No wisdom. No transformation. No cool geometric powers.
 
 You survived the Dungeon of Geometry by refusing to play its game. The shapes inside will wait for another challenger. One who might actually engage with them.
@@ -28,6 +61,4 @@ Maybe that's okay. Not everyone needs to see the world in vertices and faces.
 
 ---
 
-*ENDING UNLOCKED: "The Path of Least Resistance"*
-
-*Not bad. Not good. Just... done.*
+*ENDING 7/9 UNLOCKED: "The Path of Least Resistance"*

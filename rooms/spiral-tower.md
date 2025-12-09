@@ -4,7 +4,52 @@ You climb weathered stone steps that twist impossibly upward. The geometry defie
 
 At the top, a helix of pure light awaits.
 
-**[View the Spiral Guardian](../models/spiral.stl)**
+```stl
+solid spiral_guardian
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 2.0 0.0 0.0
+      vertex 1.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.5 0.0 0.866
+    outer loop
+      vertex 1.0 0.0 1.0
+      vertex 2.0 0.0 0.0
+      vertex 1.5 2.0 0.5
+    endloop
+  endfacet
+  facet normal 0.866 0.0 -0.5
+    outer loop
+      vertex 2.0 0.0 0.0
+      vertex 0.0 0.0 0.0
+      vertex 1.5 2.0 0.5
+    endloop
+  endfacet
+  facet normal -0.866 0.0 -0.5
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 1.0
+      vertex 0.5 2.0 1.5
+    endloop
+  endfacet
+  facet normal 0.0 0.5 0.866
+    outer loop
+      vertex 1.5 2.0 0.5
+      vertex 0.5 2.0 1.5
+      vertex 1.0 4.0 1.0
+    endloop
+  endfacet
+  facet normal 0.707 0.5 0.5
+    outer loop
+      vertex 1.0 0.0 1.0
+      vertex 0.5 2.0 1.5
+      vertex 1.5 2.0 0.5
+    endloop
+  endfacet
+endsolid
+```
 
 The Spiral speaks in frequencies:
 

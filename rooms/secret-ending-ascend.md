@@ -6,7 +6,52 @@ The Hypercube unfolds. Not in three dimensions — you realize now how limited t
 
 You stop counting. Numbers themselves become insufficient.
 
-**[View Your Final Form](../models/final-form.stl)**
+```stl
+solid final_form
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 4.0 0.0 0.0
+      vertex 4.0 0.0 4.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 4.0 0.0 4.0
+      vertex 0.0 0.0 4.0
+    endloop
+  endfacet
+  facet normal 0.0 0.242 0.970
+    outer loop
+      vertex 0.0 0.0 4.0
+      vertex 4.0 0.0 4.0
+      vertex 2.0 6.0 2.5
+    endloop
+  endfacet
+  facet normal 0.970 0.242 0.0
+    outer loop
+      vertex 4.0 0.0 4.0
+      vertex 4.0 0.0 0.0
+      vertex 2.0 6.0 2.5
+    endloop
+  endfacet
+  facet normal 0.0 0.242 -0.970
+    outer loop
+      vertex 4.0 0.0 0.0
+      vertex 0.0 0.0 0.0
+      vertex 2.0 6.0 2.5
+    endloop
+  endfacet
+  facet normal -0.970 0.242 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 4.0
+      vertex 2.0 6.0 2.5
+    endloop
+  endfacet
+endsolid
+```
 
 Your body dissolves. Your mind expands. You become geometry itself — not a student of shapes, but a shape that students will study. A form that casts shadows across infinite dimensions.
 
@@ -36,7 +81,7 @@ The cycle continues. But now you're part of it.
 
 ---
 
-*TRUE SECRET ENDING UNLOCKED: "Transcendence"*
+*TRUE SECRET ENDING 9/9 UNLOCKED: "Transcendence"*
 
 *You found the hidden path. You chose the unknown. You became infinite.*
 

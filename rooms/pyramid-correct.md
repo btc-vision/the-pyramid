@@ -6,6 +6,39 @@ The inverted pyramid trembles. The Pharaoh's voice fills with something ancient 
 
 The pyramid rights itself and descends. From its peak, a small tetrahedron emerges, glowing with inner light.
 
+```stl
+solid pharaoh_tetrahedron
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex -1.0 0.0 -0.577
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 0.0 1.155
+    endloop
+  endfacet
+  facet normal 0.0 0.471 -0.882
+    outer loop
+      vertex -1.0 0.0 -0.577
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 2.0 0.0
+    endloop
+  endfacet
+  facet normal 0.816 0.471 0.441
+    outer loop
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 0.0 1.155
+      vertex 0.0 2.0 0.0
+    endloop
+  endfacet
+  facet normal -0.816 0.471 0.441
+    outer loop
+      vertex 0.0 0.0 1.155
+      vertex -1.0 0.0 -0.577
+      vertex 0.0 2.0 0.0
+    endloop
+  endfacet
+endsolid
+```
+
 **Item Acquired: Pharaoh's Tetrahedron** — *Grants structural insight. You can now see weakness in all forms.*
 
 *"The path to the core lies through the Octahedron Chamber. But beware — the Octahedron sees all directions at once."*

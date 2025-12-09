@@ -6,6 +6,95 @@ The cube pulses with approval. All six faces glow in sequence.
 
 A smaller cube detaches and orbits your head. You feel... more angular somehow.
 
+```stl
+solid cube_blessing
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 1.0
+      vertex 1.0 0.0 1.0
+      vertex 1.0 1.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 1.0
+      vertex 1.0 1.0 1.0
+      vertex 0.0 1.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 1.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 1.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 1.0 0.0
+      vertex 1.0 1.0 1.0
+      vertex 1.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 1.0 0.0
+      vertex 0.0 1.0 1.0
+      vertex 1.0 1.0 1.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 1.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 1.0 1.0 1.0
+      vertex 1.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 1.0 1.0 0.0
+      vertex 1.0 1.0 1.0
+    endloop
+  endfacet
+endsolid
+```
+
 **Item Acquired: Cube's Edge** — *You can now perceive hidden right angles.*
 
 The cubes part, revealing a passage deeper into the dungeon.

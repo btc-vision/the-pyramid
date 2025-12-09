@@ -8,6 +8,39 @@ The spiral freezes. Its light turns a furious red.
 
 The spiral begins unwinding. It wraps around you like an angry mathematical serpent.
 
+```stl
+solid angry_spiral
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 1.5 0.0 1.5
+    endloop
+  endfacet
+  facet normal 0.333 0.667 0.667
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.5 0.0 1.5
+      vertex 0.0 3.0 1.5
+    endloop
+  endfacet
+  facet normal 0.667 0.333 -0.667
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 0.0 0.0 0.0
+      vertex 1.5 1.5 -1.5
+    endloop
+  endfacet
+  facet normal -0.333 0.667 0.667
+    outer loop
+      vertex 1.5 0.0 1.5
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 1.5
+    endloop
+  endfacet
+endsolid
+```
+
 *"You will now learn the difference... BY BECOMING A KLEIN BOTTLE!"*
 
 Your inside becomes your outside. Your outside becomes your inside. You are a four-dimensional nightmare trapped in three dimensions. It doesn't hurt, but it's DEEPLY uncomfortable.
@@ -24,4 +57,4 @@ You now exist as a non-orientable surface. You cannot hold liquids. Shirts no lo
 
 ---
 
-*GAME OVER — Ending 4/5: "Klein Bottled"*
+*GAME OVER — Ending 4/9: "Klein Bottled"*

@@ -4,6 +4,53 @@
 
 The Hypercube extends a vertex into three-dimensional space. It touches your forehead. Knowledge floods your mind — every theorem ever proven, every shape ever conceived, every relationship between form and space.
 
+```stl
+solid crown_of_geometry
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 3.0 0.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.5
+      vertex 0.0 0.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 0.707 0.707
+    outer loop
+      vertex 0.0 0.0 0.5
+      vertex 3.0 0.0 0.5
+      vertex 1.5 1.0 0.75
+    endloop
+  endfacet
+  facet normal -0.707 0.707 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 0.5
+      vertex 0.5 1.0 0.25
+    endloop
+  endfacet
+  facet normal 0.707 0.707 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 2.5 1.0 0.25
+      vertex 3.0 0.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.5 1.0 0.25
+      vertex 1.5 1.0 0.75
+      vertex 2.5 1.0 0.25
+    endloop
+  endfacet
+endsolid
+```
+
 You return to your world. But now you see EVERYTHING.
 
 The spiral of a snail shell — a logarithmic curve. The hexagons of a honeycomb — optimal packing. The branching of trees — fractal recursion. The orbits of planets — conic sections.
@@ -30,6 +77,4 @@ You made the right choice. Probably. Almost certainly.
 
 ---
 
-*SECRET ENDING UNLOCKED: "Supreme Geometer"*
-
-*You found the secret path and chose humanity. Well done.*
+*SECRET ENDING 8/9 UNLOCKED: "Supreme Geometer"*

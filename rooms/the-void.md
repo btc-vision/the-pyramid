@@ -8,7 +8,68 @@ Falling.
 
 The darkness is absolute. You fall for what feels like hours. Days. Eons.
 
-Then... you land softly on something that shouldn't exist. A shape that defies Euclidean logic.
+Then... you land softly on something that shouldn't exist.
+
+```stl
+solid impossible_object
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 3.0 0.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.5
+      vertex 0.0 0.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 0.5
+      vertex 3.0 0.0 0.5
+      vertex 3.0 3.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 0.5
+      vertex 3.0 3.0 0.5
+      vertex 0.0 3.0 0.5
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 0.0
+      vertex 3.0 3.0 0.5
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 0.5
+      vertex 3.0 0.0 0.5
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 0.0 3.0 3.0
+      vertex 3.5 3.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 3.5 3.0 3.0
+      vertex 3.5 3.0 0.0
+    endloop
+  endfacet
+endsolid
+```
 
 A voice speaks from everywhere and nowhere:
 

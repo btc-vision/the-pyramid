@@ -8,6 +8,95 @@ The cube's edges sharpen. The collective trembles with geometric rage.
 
 The cubes swarm. You feel your curves straightening. Your thoughts becoming... perpendicular.
 
+```stl
+solid you_becoming_cube
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 3.0 0.0
+      vertex 3.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 3.0 0.0
+      vertex 3.0 3.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 3.0
+      vertex 3.0 0.0 3.0
+      vertex 3.0 3.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 1.0
+    outer loop
+      vertex 0.0 0.0 3.0
+      vertex 3.0 3.0 3.0
+      vertex 0.0 3.0 3.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 3.0
+      vertex 0.0 3.0 3.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 3.0 3.0
+      vertex 0.0 3.0 0.0
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 3.0
+      vertex 3.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal 1.0 0.0 0.0
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 3.0 3.0 0.0
+      vertex 3.0 3.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 3.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 3.0
+      vertex 0.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 3.0 3.0 3.0
+      vertex 3.0 3.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 0.0 3.0 3.0
+      vertex 3.0 3.0 3.0
+    endloop
+  endfacet
+endsolid
+```
+
 ---
 
 ## BAD ENDING: Cubed
@@ -22,4 +111,4 @@ You are now Unit 7,431 of the Cubic Collective. You float in formation forever. 
 
 ---
 
-*GAME OVER — Ending 1/5: "Right Angles Forever"*
+*GAME OVER — Ending 1/9: "Right Angles Forever"*

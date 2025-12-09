@@ -8,6 +8,67 @@ All eight faces of the octahedron turn various shades of geometric rage.
 
 The chamber begins to collapse inward. The octahedron expands, its eight faces becoming walls, floor, and ceiling.
 
+```stl
+solid collapsing_prison
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 0.0 0.0 3.0
+      vertex 3.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -0.577 0.577 0.577
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex -3.0 0.0 0.0
+      vertex 0.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal -0.577 0.577 -0.577
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 0.0 0.0 -3.0
+      vertex -3.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 -0.577
+    outer loop
+      vertex 0.0 3.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 0.0 0.0 -3.0
+    endloop
+  endfacet
+  facet normal 0.577 -0.577 0.577
+    outer loop
+      vertex 0.0 -3.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 0.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal -0.577 -0.577 0.577
+    outer loop
+      vertex 0.0 -3.0 0.0
+      vertex 0.0 0.0 3.0
+      vertex -3.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -0.577 -0.577 -0.577
+    outer loop
+      vertex 0.0 -3.0 0.0
+      vertex -3.0 0.0 0.0
+      vertex 0.0 0.0 -3.0
+    endloop
+  endfacet
+  facet normal 0.577 -0.577 -0.577
+    outer loop
+      vertex 0.0 -3.0 0.0
+      vertex 0.0 0.0 -3.0
+      vertex 3.0 0.0 0.0
+    endloop
+  endfacet
+endsolid
+```
+
 *"You will remain here until you learn the difference between polytopes and their limits."*
 
 ---
@@ -24,4 +85,4 @@ You are now sealed within an octahedral prison. Eight faces watch you eternally.
 
 ---
 
-*GAME OVER — Ending unlocked: "Eight-Faced Prison"*
+*GAME OVER — Ending 6/9: "Eight-Faced Prison"*
