@@ -1,0 +1,30 @@
+solid tetrahedron_guide
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex -1.0 0.0 -0.577
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 0.0 1.155
+    endloop
+  endfacet
+  facet normal 0.0 0.471 -0.882
+    outer loop
+      vertex -1.0 0.0 -0.577
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 2.5 0.0
+    endloop
+  endfacet
+  facet normal 0.816 0.471 0.441
+    outer loop
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 0.0 1.155
+      vertex 0.0 2.5 0.0
+    endloop
+  endfacet
+  facet normal -0.816 0.471 0.441
+    outer loop
+      vertex 0.0 0.0 1.155
+      vertex -1.0 0.0 -0.577
+      vertex 0.0 2.5 0.0
+    endloop
+  endfacet
+endsolid

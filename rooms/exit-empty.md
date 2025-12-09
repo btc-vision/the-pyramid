@@ -4,39 +4,6 @@ You step through the door. Sunlight. Grass. Sky.
 
 You're out.
 
-```stl
-solid simple_door
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 1.0 2.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 -1.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 2.0 0.0
-      vertex 0.0 2.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 0.0 1.0
-    outer loop
-      vertex 0.0 0.0 0.1
-      vertex 1.0 2.0 0.1
-      vertex 1.0 0.0 0.1
-    endloop
-  endfacet
-  facet normal 0.0 0.0 1.0
-    outer loop
-      vertex 0.0 0.0 0.1
-      vertex 0.0 2.0 0.1
-      vertex 1.0 2.0 0.1
-    endloop
-  endfacet
-endsolid
-```
-
 That's it. No wisdom. No transformation. No cool geometric powers.
 
 You survived the Dungeon of Geometry by refusing to play its game. The shapes inside will wait for another challenger. One who might actually engage with them.

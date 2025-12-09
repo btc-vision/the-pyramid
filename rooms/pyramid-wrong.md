@@ -6,53 +6,6 @@ The inverted pyramid begins to spin. The Pharaoh's rage is geometric and absolut
 
 *"Pyramids have FIVE faces! The base! THE BASE! Did 4,000 polygons of waiting teach you nothing about counting?!"*
 
-```stl
-solid angry_pharaoh
-  facet normal 0.0 1.0 0.0
-    outer loop
-      vertex -1.5 2.5 -1.5
-      vertex 1.5 2.5 -1.5
-      vertex 1.5 2.5 1.5
-    endloop
-  endfacet
-  facet normal 0.0 1.0 0.0
-    outer loop
-      vertex -1.5 2.5 -1.5
-      vertex 1.5 2.5 1.5
-      vertex -1.5 2.5 1.5
-    endloop
-  endfacet
-  facet normal 0.0 -0.371 0.928
-    outer loop
-      vertex -1.5 2.5 1.5
-      vertex 1.5 2.5 1.5
-      vertex 0.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.928 -0.371 0.0
-    outer loop
-      vertex 1.5 2.5 1.5
-      vertex 1.5 2.5 -1.5
-      vertex 0.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 -0.371 -0.928
-    outer loop
-      vertex 1.5 2.5 -1.5
-      vertex -1.5 2.5 -1.5
-      vertex 0.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -0.928 -0.371 0.0
-    outer loop
-      vertex -1.5 2.5 -1.5
-      vertex -1.5 2.5 1.5
-      vertex 0.0 0.0 0.0
-    endloop
-  endfacet
-endsolid
-```
-
 The spinning creates a vortex that pulls you in. You are sealed within the pyramid for eternity, your body becoming one of its faces.
 
 ---

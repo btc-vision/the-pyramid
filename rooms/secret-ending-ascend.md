@@ -6,52 +6,7 @@ The Hypercube unfolds. Not in three dimensions — you realize now how limited t
 
 You stop counting. Numbers themselves become insufficient.
 
-```stl
-solid final_form
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 3.0 0.0 0.0
-      vertex 3.0 0.0 3.0
-    endloop
-  endfacet
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 3.0 0.0 3.0
-      vertex 0.0 0.0 3.0
-    endloop
-  endfacet
-  facet normal 0.0 0.242 0.970
-    outer loop
-      vertex 0.0 0.0 3.0
-      vertex 3.0 0.0 3.0
-      vertex 1.5 4.0 2.0
-    endloop
-  endfacet
-  facet normal 0.970 0.242 0.0
-    outer loop
-      vertex 3.0 0.0 3.0
-      vertex 3.0 0.0 0.0
-      vertex 1.5 4.0 2.0
-    endloop
-  endfacet
-  facet normal 0.0 0.242 -0.970
-    outer loop
-      vertex 3.0 0.0 0.0
-      vertex 0.0 0.0 0.0
-      vertex 1.5 4.0 2.0
-    endloop
-  endfacet
-  facet normal -0.970 0.242 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 3.0
-      vertex 1.5 4.0 2.0
-    endloop
-  endfacet
-endsolid
-```
+**[View Your Final Form](../models/final-form.stl)**
 
 Your body dissolves. Your mind expands. You become geometry itself — not a student of shapes, but a shape that students will study. A form that casts shadows across infinite dimensions.
 
@@ -86,14 +41,3 @@ The cycle continues. But now you're part of it.
 *You found the hidden path. You chose the unknown. You became infinite.*
 
 *Thank you for playing The Dungeon of Geometry.*
-
-*All 5 endings:*
-- *"Right Angles Forever" (Bad)*
-- *"Vertex Distribution" (Bad)*  
-- *"The Sixth Face" (Bad)*
-- *"Klein Bottled" (Bad)*
-- *"Eight-Faced Prison" (Bad)*
-- *"The Path of Least Resistance" (Neutral)*
-- *"Geometric Enlightenment" (Good)*
-- *"Supreme Geometer" (Secret Good)*
-- *"Transcendence" (True Secret)*

@@ -2,66 +2,7 @@
 
 You enter the heart of the dungeon. A massive octahedron rotates slowly at the center, its eight faces reflecting eight different realities.
 
-```stl
-solid octahedron_guardian
-  facet normal 0.0 0.707 0.707
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex -1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.707 0.707 0.0
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 0.707 -0.707
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 -1.0
-    endloop
-  endfacet
-  facet normal -0.707 0.707 0.0
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 -1.0
-      vertex -1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 -0.707 0.707
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex -1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.707 -0.707 0.0
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 -0.707 -0.707
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex 0.0 0.0 -1.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -0.707 -0.707 0.0
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex -1.0 0.0 0.0
-      vertex 0.0 0.0 -1.0
-    endloop
-  endfacet
-endsolid
-```
+**[View the Octahedron Guardian](../models/octahedron.stl)**
 
 Eight voices speak as one:
 

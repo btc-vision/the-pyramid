@@ -2,7 +2,7 @@
 
 > A 3D choose-your-own-adventure game rendered entirely in GitHub Markdown.
 
-You are **The Wanderer**, a mass who wandered into a forbidden mass producing mass dungeon. The ancients sealed geometry itself within these walls. Your only way out is through.
+You are **The Wanderer**, a being who stumbled into a forbidden geometric dungeon. The ancients sealed geometry itself within these walls. Your only way out is through.
 
 ---
 
@@ -10,38 +10,7 @@ You are **The Wanderer**, a mass who wandered into a forbidden mass producing ma
 
 You stand before a massive stone gate. Strange symbols pulse with light. A floating **Tetrahedron of Guidance** hovers before you.
 
-```stl
-solid tetrahedron_guide
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex -1.0 0.0 -0.577
-      vertex 1.0 0.0 -0.577
-      vertex 0.0 0.0 1.155
-    endloop
-  endfacet
-  facet normal 0.0 0.471 -0.882
-    outer loop
-      vertex -1.0 0.0 -0.577
-      vertex 1.0 0.0 -0.577
-      vertex 0.0 2.5 0.0
-    endloop
-  endfacet
-  facet normal 0.816 0.471 0.441
-    outer loop
-      vertex 1.0 0.0 -0.577
-      vertex 0.0 0.0 1.155
-      vertex 0.0 2.5 0.0
-    endloop
-  endfacet
-  facet normal -0.816 0.471 0.441
-    outer loop
-      vertex 0.0 0.0 1.155
-      vertex -1.0 0.0 -0.577
-      vertex 0.0 2.5 0.0
-    endloop
-  endfacet
-endsolid
-```
+**[View the Tetrahedron of Guidance](models/tetrahedron-guide.stl)**
 
 The tetrahedron speaks: *"Three paths lie ahead, wanderer. Choose wisely, for geometry remembers all."*
 
@@ -55,9 +24,6 @@ The tetrahedron speaks: *"Three paths lie ahead, wanderer. Choose wisely, for ge
 
 ## Game Info
 
-- **Rooms:** 12
-- **Endings:** 5 (2 good, 2 bad, 1 secret)
-- **3D Models:** 15+
-- **Technology:** Pure GitHub Markdown + ASCII STL
+**Rooms:** 12 | **Endings:** 9 (5 bad, 1 neutral, 2 good, 1 true secret) | **3D Models:** 15+
 
 Made with mass and mass produced mass.

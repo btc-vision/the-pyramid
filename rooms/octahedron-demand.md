@@ -8,67 +8,6 @@ The octahedron pauses. Eight faces blink in confusion.
 
 A long pause. The eight voices confer in whispered angles.
 
-```stl
-solid confused_octahedron
-  facet normal 0.0 0.707 0.707
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex -1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.707 0.707 0.0
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 0.707 -0.707
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 -1.0
-    endloop
-  endfacet
-  facet normal -0.707 0.707 0.0
-    outer loop
-      vertex 0.0 1.0 0.0
-      vertex 0.0 0.0 -1.0
-      vertex -1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.0 -0.707 0.707
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex 0.0 0.0 1.0
-      vertex -1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal 0.707 -0.707 0.0
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.0 0.0 1.0
-    endloop
-  endfacet
-  facet normal 0.0 -0.707 -0.707
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex 0.0 0.0 -1.0
-      vertex 1.0 0.0 0.0
-    endloop
-  endfacet
-  facet normal -0.707 -0.707 0.0
-    outer loop
-      vertex 0.0 -1.0 0.0
-      vertex -1.0 0.0 0.0
-      vertex 0.0 0.0 -1.0
-    endloop
-  endfacet
-endsolid
-```
-
 Finally, the eight voices speak again:
 
 *"We... respect your directness. Too long have we guarded this place with puzzles and games. You remind us that sometimes the shortest path between two points is simply... a line."*

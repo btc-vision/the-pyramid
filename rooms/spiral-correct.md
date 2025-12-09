@@ -6,67 +6,6 @@ The helix pulses with approval, its light cycling through infinite colors.
 
 A ring of light separates from the spiral and encircles your wrist.
 
-```stl
-solid mobius_gift
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.5 0.0 0.0
-      vertex 0.5 0.0 0.1
-    endloop
-  endfacet
-  facet normal 0.0 -1.0 0.0
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.5 0.0 0.1
-      vertex 0.0 0.0 0.1
-    endloop
-  endfacet
-  facet normal 0.707 0.0 0.707
-    outer loop
-      vertex 0.5 0.0 0.0
-      vertex 0.5 0.5 0.0
-      vertex 0.5 0.5 0.1
-    endloop
-  endfacet
-  facet normal 0.707 0.0 0.707
-    outer loop
-      vertex 0.5 0.0 0.0
-      vertex 0.5 0.5 0.1
-      vertex 0.5 0.0 0.1
-    endloop
-  endfacet
-  facet normal 0.0 1.0 0.0
-    outer loop
-      vertex 0.0 0.5 0.0
-      vertex 0.5 0.5 0.1
-      vertex 0.5 0.5 0.0
-    endloop
-  endfacet
-  facet normal 0.0 1.0 0.0
-    outer loop
-      vertex 0.0 0.5 0.0
-      vertex 0.0 0.5 0.1
-      vertex 0.5 0.5 0.1
-    endloop
-  endfacet
-  facet normal -0.707 0.0 -0.707
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.5 0.1
-      vertex 0.0 0.5 0.0
-    endloop
-  endfacet
-  facet normal -0.707 0.0 -0.707
-    outer loop
-      vertex 0.0 0.0 0.0
-      vertex 0.0 0.0 0.1
-      vertex 0.0 0.5 0.1
-    endloop
-  endfacet
-endsolid
-```
-
 **Item Acquired: Spiral Band** — *Grants continuous perception. You see all paths as one.*
 
 *"The Octahedron Chamber awaits. It guards the exit... and the truth."*

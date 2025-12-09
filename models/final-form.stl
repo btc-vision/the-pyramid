@@ -1,0 +1,44 @@
+solid final_form
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 0.0
+      vertex 3.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 3.0 0.0 3.0
+      vertex 0.0 0.0 3.0
+    endloop
+  endfacet
+  facet normal 0.0 0.242 0.970
+    outer loop
+      vertex 0.0 0.0 3.0
+      vertex 3.0 0.0 3.0
+      vertex 1.5 4.0 2.0
+    endloop
+  endfacet
+  facet normal 0.970 0.242 0.0
+    outer loop
+      vertex 3.0 0.0 3.0
+      vertex 3.0 0.0 0.0
+      vertex 1.5 4.0 2.0
+    endloop
+  endfacet
+  facet normal 0.0 0.242 -0.970
+    outer loop
+      vertex 3.0 0.0 0.0
+      vertex 0.0 0.0 0.0
+      vertex 1.5 4.0 2.0
+    endloop
+  endfacet
+  facet normal -0.970 0.242 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 3.0
+      vertex 1.5 4.0 2.0
+    endloop
+  endfacet
+endsolid

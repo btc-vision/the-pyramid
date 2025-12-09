@@ -1,0 +1,44 @@
+solid inverted_pyramid
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex -1.0 2.0 -1.0
+      vertex 1.0 2.0 -1.0
+      vertex 1.0 2.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 1.0 0.0
+    outer loop
+      vertex -1.0 2.0 -1.0
+      vertex 1.0 2.0 1.0
+      vertex -1.0 2.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 -0.447 0.894
+    outer loop
+      vertex -1.0 2.0 1.0
+      vertex 1.0 2.0 1.0
+      vertex 0.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.894 -0.447 0.0
+    outer loop
+      vertex 1.0 2.0 1.0
+      vertex 1.0 2.0 -1.0
+      vertex 0.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal 0.0 -0.447 -0.894
+    outer loop
+      vertex 1.0 2.0 -1.0
+      vertex -1.0 2.0 -1.0
+      vertex 0.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -0.894 -0.447 0.0
+    outer loop
+      vertex -1.0 2.0 -1.0
+      vertex -1.0 2.0 1.0
+      vertex 0.0 0.0 0.0
+    endloop
+  endfacet
+endsolid
