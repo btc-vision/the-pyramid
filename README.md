@@ -14,30 +14,30 @@ You stand before a massive stone gate. Strange symbols pulse with light. A float
 solid tetrahedron_guide
   facet normal 0.0 -1.0 0.0
     outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.5 0.0 0.866
+      vertex -1.0 0.0 -0.577
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 0.0 1.155
     endloop
   endfacet
-  facet normal 0.0 0.333 -0.943
+  facet normal 0.0 0.471 -0.882
     outer loop
-      vertex 0.0 0.0 0.0
-      vertex 1.0 0.0 0.0
-      vertex 0.5 0.816 0.289
+      vertex -1.0 0.0 -0.577
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 2.5 0.0
     endloop
   endfacet
-  facet normal 0.816 0.333 0.471
+  facet normal 0.816 0.471 0.441
     outer loop
-      vertex 1.0 0.0 0.0
-      vertex 0.5 0.0 0.866
-      vertex 0.5 0.816 0.289
+      vertex 1.0 0.0 -0.577
+      vertex 0.0 0.0 1.155
+      vertex 0.0 2.5 0.0
     endloop
   endfacet
-  facet normal -0.816 0.333 0.471
+  facet normal -0.816 0.471 0.441
     outer loop
-      vertex 0.5 0.0 0.866
-      vertex 0.0 0.0 0.0
-      vertex 0.5 0.816 0.289
+      vertex 0.0 0.0 1.155
+      vertex -1.0 0.0 -0.577
+      vertex 0.0 2.5 0.0
     endloop
   endfacet
 endsolid
